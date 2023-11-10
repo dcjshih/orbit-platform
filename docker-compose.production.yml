@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  webapp:
+    environment:
+      NODE_ENV: production
+
+  strapi:
+    environment:
+      NODE_ENV: production
+
+  mongo:
+    volumes:
+      - data:/data
+
+  nginx:
+    build:
+      # SSL and domain registration are not ready
+      target: development
+    ports:
+      - 80:80
+      - 443:443
+
+volumes:
+  data: {}

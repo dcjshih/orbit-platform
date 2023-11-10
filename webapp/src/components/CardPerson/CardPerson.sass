@@ -1,0 +1,67 @@
+@import ../../styles/tokens
+
+.card.person
+  position: relative
+  .avatar
+    width: $spacer * 6
+    height: $spacer * 6
+    display: inline-block
+    margin-right: $spacer * 2
+
+  .card-metadata
+    position: relative
+    display: inline-block
+
+  .avatar,
+  .card-metadata
+    vertical-align: middle
+
+  .card-metadata
+
+  .card-container
+    position: relative
+    background: $white
+    padding: $spacer * 2
+    border-radius: $border-radius
+    margin: -1px
+    border: 1px solid transparent
+    &:hover
+      border: 1px solid $black
+
+  .card-title
+    font-weight: 700
+
+  .card-institution
+
+  .card-matches
+    position: absolute
+    bottom: 0
+    right: 0
+    padding: $spacer * 2
+    background: white
+    border-radius: $border-radius
+
+    .match
+      position: relative
+      display: inline-block
+      width: $spacer
+      height: $spacer
+      border-radius: 50%
+      background: $black
+      margin-right: $spacer / 2
+      cursor: default
+      transition: all $transition-duration $transition-timing-function
+      &:last-of-type
+        margin-right: 0
+
+      &:hover
+        background: $white
+        border: 1px inset $black
+        .tooltip
+          opacity: 1
+      .tooltip
+        opacity: 0
+        transition: opacity $transition-duration $transition-timing-function
+        left: 0
+        top: -$spacer
+        transform: translate(-50%, -100%)

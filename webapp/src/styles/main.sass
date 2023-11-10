@@ -1,0 +1,108 @@
+@import tokens
+@import forms
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+::selection
+  background: rgba($black, .99)
+  color: $white
+
+body
+  font:
+    size: $font-size
+    family: $font-stack
+    weight: $font-weight-normal
+  line-height: $line-height
+  background: $background
+  min-height: 100vh
+  color: $black
+  padding-bottom: 132px
+  position: relative
+
+h1, h2, h3
+  font-weight: $font-weight-bold
+
+h1
+  font-size: 1.5em
+  margin-bottom: $spacer * 4
+
+h2
+  font-size: 1.25em
+
+h3
+  font-size: inherit
+  line-height: inherit
+
+a
+  color: inherit
+  text-decoration: underline
+
+p + p
+  margin-top: $font-size * $line-height
+
+.wrapper
+  max-width: $page-width
+  margin:
+    top: 0
+    right: auto
+    bottom: $spacer * 8
+    left: auto
+  padding: 0 ($spacer * 4)
+  box-sizing: content-box
+  position: relative
+
+.faded
+  color: $gray
+
+.container
+  position: relative
+  background: $white
+  border-radius: $border-radius
+  padding: $spacer * 4
+
+.grid
+  display: grid
+  grid-template-columns: repeat(12, 1fr [col-start])
+  grid-column-gap: $spacer * 4
+
+.grid-area-main
+  grid-column-start: 1
+  grid-column-end: 8
+.grid-area-sidebar
+  grid-column-start: 9
+  grid-column-end: 13
+
+.container-tools
+  position: absolute
+  top: $spacer * 4
+  right: $spacer * 4
+  list-style: none
+  user-select: none
+  li
+    display: inline-block
+    margin-right: $spacer * 2
+    &:last-of-type
+      margin-right: 0
+    span,
+    svg
+      vertical-align: middle
+    span
+      margin-left: $spacer
+    a
+      text-decoration: none
+    a,
+    div
+      cursor: pointer
+      opacity: 1
+      transition: opacity $transition-duration $transition-timing-function
+      &:hover
+        opacity: 0.3
+        transition: opacity $transition-duration $transition-timing-function
+
+.form-field-descriptor
+  color: $gray
+  margin-top: ($font-size * $line-height) / 2
+

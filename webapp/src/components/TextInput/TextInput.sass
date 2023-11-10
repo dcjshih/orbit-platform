@@ -1,0 +1,23 @@
+@import ../../styles/tokens
+
+input[type=email],
+input[type=password],
+input[type=text],
+  font: inherit
+  border-radius: $border-radius
+  border: 1px solid $gray
+  padding: $spacer ($spacer * 2)
+  &:hover
+    border: 1px dashed $black
+  &:focus
+    border: 1px solid $black
+    outline: 0
+
+
+form.checked
+  input[type=email],
+  input[type=password],
+  input[type=text],
+    &:invalid
+      border-color: red
+      background: rgba(red, 0.1)

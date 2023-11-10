@@ -1,0 +1,44 @@
+@import ../../styles/tokens
+
+.login-page
+  position: relative
+  min-height: 100vh
+
+.login
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  display: flex
+  justify-content: center
+  align-content: center
+  align-items: center
+  flex-direction: row
+  flex-wrap: nowrap
+  margin-bottom: $spacer * 8
+
+.login-introduction
+  width: 300px
+
+.login-wrapper
+  margin-bottom: 0
+  margin-right: 40px
+  margin-left: 40px
+  flex-basis: 550px
+
+  h1
+    font-size: 2.25rem
+    margin-bottom: $spacer * 2
+
+  .branding
+    margin-bottom: $spacer * 2
+    img
+      height: $spacer * 6
+
+.login-description
+  margin: 0 auto ($spacer * 4) auto
+  text-align: center
+  width: 550px
+
+.login-help
+  text-align: center

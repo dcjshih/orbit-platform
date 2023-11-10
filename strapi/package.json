@@ -1,0 +1,36 @@
+{
+  "name": "orbit-strapi",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Online Resource for Building Intercultural Teams (ORBIT).",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build --clean",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.1.1",
+    "strapi-admin": "3.1.1",
+    "strapi-connector-mongoose": "3.1.1",
+    "strapi-plugin-content-manager": "3.1.1",
+    "strapi-plugin-content-type-builder": "3.1.1",
+    "strapi-plugin-email": "3.1.1",
+    "strapi-plugin-upload": "3.1.1",
+    "strapi-plugin-users-permissions": "3.1.1",
+    "strapi-provider-email-sendgrid": "3.1.1",
+    "strapi-utils": "3.1.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "06e9e7f6-2ddc-40c7-859f-e1e870c963fd"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

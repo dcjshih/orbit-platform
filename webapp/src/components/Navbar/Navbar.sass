@@ -1,0 +1,88 @@
+@import ../../styles/tokens
+
+.navigation
+  display: sticky
+  top: 0
+  left: 0
+  right: 0
+  background: $white
+  line-height: $spacer * 8
+  margin-bottom: $spacer * 4
+  padding: 0 ($spacer * 4)
+  .icon
+    vertical-align: middle
+
+  a
+    color: inherit
+    text-decoration: none
+
+  .navigation-icon-label
+    margin-left: $spacer
+
+  .active
+    font-weight: $font-weight-bold
+
+  .dropdown
+    position: relative
+    z-index: 40
+
+  .dropdown-toggle
+    cursor: pointer
+    font-size: inherit
+    background: inherit
+    border: none
+    font: inherit
+    color: inherit
+    padding: 0
+
+  .dropdown-menu
+    position: absolute
+    left: $spacer * -2
+    top: $spacer * 8
+    background: $white
+    padding: 0 ($spacer * 2)
+    list-style: none
+    border-bottom-left-radius: $border-radius
+    border-bottom-right-radius: $border-radius
+    > li
+        line-height: $spacer * 8
+        white-space: nowrap
+
+.navigation-wrapper
+  max-width: $page-width
+  margin: 0 auto
+  display: flow-root
+
+.navigation-brand
+  display: inline-block
+  float: left
+  font-weight: $font-weight-bold
+  img
+    height: 1rem
+    vertical-align: baseline
+
+.navigation-primary,
+.navigation-secondary
+  display: inline-block
+  > li
+    display: inline-block
+
+.navigation-primary
+  float: left
+  > li
+    margin-left: $spacer * 4
+.navigation-secondary
+  float: right
+  > li
+    margin-left: $spacer * 2
+    &:first-of-type
+      margin-left: 0
+
+.navigation-item
+  button
+    border: 0
+    outline: 0
+    font: inherit
+    line-height: inherit
+    background: none
+    cursor: pointer

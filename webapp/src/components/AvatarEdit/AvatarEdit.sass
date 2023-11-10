@@ -1,0 +1,32 @@
+@import ../../styles/tokens
+
+.avatar
+  fill: $black
+  label
+    position: relative
+    width: 100px
+    height: 100px
+    background-size: cover
+    border-radius: 50%
+    overflow: hidden
+
+    input
+      display: none
+    .avatar-tint
+      position: absolute
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+      background: rgba($black, 0.3)
+    .icon
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+      fill: $white
+      opacity: 1
+      transition: opacity $transition-duration $transition-timing-function
+      cursor: pointer
+      &:hover
+        opacity: 0.5

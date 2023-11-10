@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "ideas",
+  "info": {
+    "name": "Idea"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "creator": {
+      "type": "string",
+      "required": true
+    },
+    "candidates": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "applications"
+    },
+    "members": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "ideas",
+      "dominant": true
+    },
+    "website": {
+      "type": "string"
+    },
+    "institution": {
+      "type": "string"
+    },
+    "collaboration": {
+      "type": "string"
+    },
+    "communication": {
+      "type": "json"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "email"
+    },
+    "interests": {
+      "type": "string"
+    },
+    "goals": {
+      "collection": "goal"
+    },
+    "bookmarked_by": {
+      "via": "bookmarked_ideas",
+      "plugin": "users-permissions",
+      "collection": "user"
+    }
+  }
+}

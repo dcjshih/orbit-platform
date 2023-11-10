@@ -1,0 +1,7 @@
+.cache/
+node_modules/
+
+# build
+# api/idea/
+# extensions/users-permissions
+# !extensions/users-permissions/config/jwt.json

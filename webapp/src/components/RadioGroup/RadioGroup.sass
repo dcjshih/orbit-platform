@@ -1,0 +1,19 @@
+@import ../../styles/tokens
+
+.radio-group
+  display: inline-block
+  label
+    display: inline-block
+    cursor: pointer
+    margin-right: $spacer * 4
+    &:last-of-type
+      margin-right: 0
+    span
+      display: inline-block
+      margin-bottom: 0
+  input[type="radio"]
+    opacity: 0
+    position: absolute
+  svg
+    vertical-align: middle
+    margin-right: $spacer

@@ -1,0 +1,81 @@
+@import ../../styles/tokens
+
+.toolbar
+  grid-column-start: 9
+  grid-column-end: 13
+  user-select: none
+
+  .toolbar-title
+    margin-bottom: $spacer
+  
+  .toolbar-tools
+    width: 100%
+    display: flex
+    justify-content: space-between
+
+  .toolbar-contact
+
+  .toolbar-list
+    list-style: none
+    //position: absolute
+    //top: $spacer * 4
+    //right: $spacer * 4
+
+    button
+      border: none
+      outline: none
+      background: none
+      cursor: pointer
+      font: inherit
+      line-height: inherit
+    li
+      display: inline-block
+      margin-right: $spacer * 2
+
+  .toolbar-item
+    cursor: pointer
+    opacity: 1
+    transition: opacity $transition-duration $transition-timing-function
+    &:hover
+      opacity: 0.3
+      transition: opacity $transition-duration $transition-timing-function
+    &:last-of-type
+      margin-right: 0
+    span,
+    svg
+      vertical-align: middle
+    span
+      margin-left: $spacer
+    a
+      text-decoration: none
+    &.dropdown
+      position: relative
+
+  .dropdown-tint
+    position: fixed
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    background: transparent
+    z-index: 50
+
+  .dropdown-menu
+    background: $white
+    padding: $spacer ($spacer * 2)
+    list-style: none
+    color: red
+    position: absolute
+    border-radius: $border-radius
+    top: 110px
+    right: 0
+    box-shadow: $shadow
+    z-index: 100
+
+    > li
+      white-space: nowrap
+      width: 100%
+      border-bottom: 1px solid $light-gray
+      padding: $spacer 0
+      &:last-of-type
+        border-bottom: none

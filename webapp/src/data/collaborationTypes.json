@@ -1,0 +1,14 @@
+[
+  {
+    "id": "teaching",
+    "label": "Teaching only"
+  },
+  {
+    "id": "research",
+    "label": "Research only"
+  },
+  {
+    "id": "teaching and research",
+    "label": "Teaching and research"
+  }
+]

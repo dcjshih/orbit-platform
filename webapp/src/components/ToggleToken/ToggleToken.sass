@@ -1,0 +1,32 @@
+@import ../../styles/tokens
+
+.toggle-token
+  color: $black
+  border-radius: $border-radius
+  display: inline-block
+  text-decoration: none
+  font: inherit
+  border:
+    width: 1px
+    style: solid
+    color: transparent
+  background: $background
+  color: $black
+  line-height: inherit
+  border-radius: $border-radius
+  padding: $spacer ($spacer * 2)
+  cursor: pointer
+  margin:
+    right: $spacer * 2
+    bottom: $spacer * 2
+  &:hover
+    border-color: $light-gray
+  &:focus
+    border-color: $gray
+    border-style: dashed
+    outline: none
+  &.enabled
+    border-color: $black
+    background: $light-gray
+    &:hover
+      border-color: $black

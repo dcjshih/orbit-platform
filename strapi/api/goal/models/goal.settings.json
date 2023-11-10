@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "goals",
+  "info": {
+    "name": "Goal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "goal": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "required": true
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text",
+      "private": true
+    },
+    "url": {
+      "type": "string",
+      "private": true
+    },
+    "official": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import ../../styles/tokens
+
+select
+  font: inherit
+  border-radius: $border-radius
+  border: 1px solid $gray
+  padding: $spacer ($spacer * 2)
+  cursor: pointer
+  width: 100%
+  &:hover
+    border: 1px dashed $black
+  &:focus
+    border: 1px solid $black
+    outline: 0
+  &.multiple
+    overflow-y: scroll
+
+form.checked
+  select:invalid
+    border-color: red
+    background: rgba(red, 0.1)

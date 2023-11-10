@@ -1,0 +1,255 @@
+[
+  {
+    "category": "Business",
+    "disciplines": [
+      "Business (general)",
+      "Careers / Professional Preparation",
+      "Companies & Industry",
+      "Entrepreneurship",
+      "Finance",
+      "International Business",
+      "Management",
+      "Marketing"
+    ]
+  },
+  {
+    "category": "Design",
+    "disciplines": [
+      "Design (general)",
+      "Architecture",
+      "Design research",
+      "Discursive design",
+      "Fashion/textile design",
+      "Graphic Design",
+      "Human-centered design",
+      "Interaction Design",
+      "Interior Design",
+      "Landscape Architecture",
+      "Product Design",
+      "Service Design",
+      "Urban planning"
+    ]
+  },
+  {
+    "category": "Education",
+    "disciplines": [
+      "Education (general)",
+      "Collaborative Learning",
+      "Controversial topics (e.g. sex education)",
+      "Decolonization",
+      "Discipline",
+      "Flipped Classroom",
+      "Higher education",
+      "K-12 education",
+      "Learning Styles",
+      "Multiculturalism",
+      "Peer counseling",
+      "Technology integration",
+      "Violence in schools",
+      "Virtual classrooms"
+    ]
+  },
+  {
+    "category": "Engineering",
+    "disciplines": [
+      "Engineering (general)",
+      "Aerospace Engineering",
+      "Automotive Engineering",
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Climate Science",
+      "Electrical Engineering",
+      "Energy",
+      "Environmental Engineering",
+      "Industrial & Operations Engineering",
+      "Manufacturing",
+      "Materials Science & Engineering",
+      "Mechanical Engineering",
+      "Naval Architecture & Marine Engineering",
+      "Nuclear Engineering & Radiological Sciences",
+      "Pharmaceutical Engineering",
+      "Space, Sciences & Engineering",
+      "Transportation Engineering"
+    ]
+  },
+  {
+    "category": "Fine & Performing Arts",
+    "disciplines": [
+      "Fine Arts (general)",
+      "Performing Arts (general)",
+      "2D visual arts",
+      "3D visual arts",
+      "Hybrid art & design",
+      "Art History",
+      "Dance",
+      "Film & Video",
+      "Music",
+      "Theatre & Drama"
+    ]
+  },
+  {
+    "category": "Government, Law & Politics",
+    "disciplines": [
+      "Government & Politics (general)",
+      "Law (general)",
+      "Geospatial Data",
+      "Government information (local, national, international)",
+      "International Public Policy",
+      "Law & Legal Studies",
+      "Local Policy",
+      "Numeric (micro-level) data",
+      "Patents & Trademarks",
+      "Political Science",
+      "Public Policy",
+      "Science Policy",
+      "Statistical (macro-level) data",
+      "Statistics & Data Sets"
+    ]
+  },
+  {
+    "category": "Health Sciences",
+    "disciplines": [
+      "Health Sciences (general)",
+      "Allergy & Immunology",
+      "Alternative medicine",
+      "Anesthesiology",
+      "Biological Chemistry",
+      "Biostatistics",
+      "Cardiovascular medicine",
+      "Chinese medicine",
+      "Dentistry",
+      "Dermatology",
+      "Emergency Medicine",
+      "Endocrinology",
+      "Environmental Health Sciences",
+      "Epidemiology",
+      "Family medicine",
+      "Gastroenterology",
+      "Gerontology",
+      "Health Behavior & Health Education",
+      "Health Management & Policy",
+      "Hematology & Oncology",
+      "Holistic medicine",
+      "Human Genetics",
+      "Infectious Diseases",
+      "Integrative Medicine",
+      "Internal Medicine",
+      "Medical Education",
+      "Nephrology",
+      "Neurology & Neurosciences",
+      "Neurosurgery",
+      "Nursing",
+      "Obstetrics & Gynecology",
+      "Opthalmology & Vision Sciences",
+      "Orthopedics",
+      "Otolaryngology",
+      "Pathology",
+      "Pediatrics",
+      "Pharmacy & Pharmacology",
+      "Physical medicine & rehabilitation",
+      "Psychiatry",
+      "Public Health",
+      "Radiology",
+      "Rheumatology",
+      "Surgery",
+      "Urology"
+    ]
+  },
+  {
+    "category": "Humanities",
+    "disciplines": [
+      "Humanities (general)",
+      "Cultural studies",
+      "Digital Humanities",
+      "History",
+      "Languages",
+      "Literature",
+      "Museum Studies",
+      "Philosophy",
+      "Religion"
+    ]
+  },
+  {
+    "category": "International studies",
+    "disciplines": [
+      "International Studies (general)",
+      "African studies",
+      "American Studies",
+      "Asian Studies",
+      "Caribbean Studies",
+      "Central Asian Studies",
+      "European Studies",
+      "Latin American Studies",
+      "Middle Eastern, Near Eastern & North African Studies",
+      "Pacific/Australia/New Zealand Studies",
+      "South Asian Studies",
+      "Southeast Asian Studies"
+    ]
+  },
+  {
+    "category": "Kinesiolgy & Sports",
+    "disciplines": [
+      "Kinesiology (general)",
+      "Sports (general)",
+      "Kinesiology",
+      "Movement Science",
+      "Orthopedics",
+      "Physical Education",
+      "Physcial medicine & Rehabilitation",
+      "Physiology",
+      "Sports",
+      "Sports management"
+    ]
+  },
+  {
+    "category": "Science & Mathematics",
+    "disciplines": [
+      "Science (general)",
+      "Mathematics (general)",
+      "Astronomy & Astrophysics",
+      "Biology",
+      "Botany",
+      "Chemistry",
+      "Climate Science",
+      "Earth & Environmental Sciences",
+      "Ecology & Evolutionary Biology",
+      "Evironment & Sustainability",
+      "Genetics",
+      "Microbiology & Immunology",
+      "Molecular, Cellular & Developmental Biology",
+      "Physics",
+      "Physiology",
+      "Space Sciences & Engineering",
+      "Statistics (Mathematical)",
+      "Zoology"
+    ]
+  },
+  {
+    "category": "Social Sciences",
+    "disciplines": [
+      "Social Sciences (general)",
+      "Anthropology",
+      "Archaeology",
+      "Cultural Studies",
+      "Communication Studies",
+      "Disability Studies",
+      "Economics",
+      "Education",
+      "Geography & Maps",
+      "Geospatial data",
+      "Human-Computer Interaction",
+      "Indigenous studies",
+      "Information Science",
+      "Latinx Studies",
+      "LGBTQIA+ Studies",
+      "Libraries & Library Science",
+      "Multiracial studies",
+      "Population & Demography",
+      "Psychology",
+      "Sociology",
+      "Statistics",
+      "Urban planning",
+      "Women's & Gender studies"
+    ]
+  }
+]

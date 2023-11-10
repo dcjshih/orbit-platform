@@ -1,0 +1,37 @@
+@import ../../styles/tokens
+
+.page
+  margin:
+    top: 0
+    right: auto
+    bottom: $spacer * 8
+    left: auto
+  padding: 0
+  box-sizing: content-box
+  position: relative
+
+  .page-container
+    max-width: $page-width
+    margin: 0 auto
+    position: relative
+    background: $white
+    border-radius: $border-radius
+    padding: $spacer * 4
+
+  header
+    margin-bottom: $spacer * 4
+    width: 100%
+    border-bottom: 1px solid $gray
+    padding-bottom: $spacer * 4
+    grid-column-start: 1
+    grid-column-end: 13
+    grid-template-columns: repeat(12, 1fr [col-start])
+    grid-column-gap: $spacer * 4
+    display: grid
+    h1
+      grid-column-start: 1
+      grid-column-end: 9
+
+    .header-description
+      grid-column-start: 1
+      grid-column-end: 9

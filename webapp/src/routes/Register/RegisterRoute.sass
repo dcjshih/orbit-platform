@@ -1,0 +1,36 @@
+@import ../../styles/tokens
+
+.register
+  header
+    border-bottom: 0
+    padding-bottom: 0
+    margin-bottom: $spacer * 8
+
+  input[type="file"]
+    color: transparent
+    font: inherit
+    line-height: inherit
+
+    &::-webkit-file-upload-button
+      visibility: hidden
+
+    &::before
+      content: 'Select a profile photo'
+      font: inherit
+      background: $black
+      color: $white
+      line-height: 42px
+
+      border-radius: $border-radius
+      padding: $spacer ($spacer * 4)
+      cursor: pointer
+      white-space: nowrap
+      border: 1px solid $black
+      user-select: none
+      outline: none
+  .class-composer
+    grid-column-start: 1
+    grid-column-end: 13
+
+  .alert
+    margin-top: $spacer * 2

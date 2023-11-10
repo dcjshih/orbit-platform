@@ -1,0 +1,162 @@
+[
+  {
+    "name": "ACT",
+    "description": "Australia Central Time",
+    "gmt": "+9:30"
+  },
+  {
+    "name": "AET",
+    "description": "Australia Eastern Time",
+    "gmt": "+10:00"
+  },
+  {
+    "name": "AGT",
+    "description": "Argentina Standard Time",
+    "gmt": "-3:00"
+  },
+  {
+    "name": "ART",
+    "description": "(Arabic) Egypt Standard Time",
+    "gmt": "+2:00"
+  },
+  {
+    "name": "AST",
+    "description": "Alaska Standard Time",
+    "gmt": "-9:00"
+  },
+  {
+    "name": "BET",
+    "description": "Brazil Eastern Time",
+    "gmt": "-3:00"
+  },
+  {
+    "name": "BST",
+    "description": "Bangladesh Standard Time",
+    "gmt": "+6:00"
+  },
+  {
+    "name": "CAT",
+    "description": "Central African Time",
+    "gmt": "-1:00"
+  },
+  {
+    "name": "CNT",
+    "description": "Canada Newfoundland Time",
+    "gmt": "-3:30"
+  },
+  {
+    "name": "CST",
+    "description": "Central Standard Time",
+    "gmt": "-6:00"
+  },
+  {
+    "name": "CTT",
+    "description": "China Taiwan Time",
+    "gmt": "+8:00"
+  },
+  {
+    "name": "EAT",
+    "description": "Eastern African Time",
+    "gmt": "+3:00"
+  },
+  {
+    "name": "ECT",
+    "description": "European Central Time",
+    "gmt": "+1:00"
+  },
+  {
+    "name": "EET",
+    "description": "Eastern European Time",
+    "gmt": "+2:00"
+  },
+  {
+    "name": "EST",
+    "description": "Eastern Standard Time",
+    "gmt": "-5:00"
+  },
+  {
+    "name": "GMT",
+    "description": "Greenwich Mean Time",
+    "gmt": "0"
+  },
+  {
+    "name": "HST",
+    "description": "Hawaii Standard Time",
+    "gmt": "-10:00"
+  },
+  {
+    "name": "IET",
+    "description": "Indiana Eastern Standard Time",
+    "gmt": "-5:00"
+  },
+  {
+    "name": "IST",
+    "description": "India Standard Time",
+    "gmt": "+5:30"
+  },
+  {
+    "name": "JST",
+    "description": "Japan Standard Time",
+    "gmt": "+9:00"
+  },
+  {
+    "name": "MET",
+    "description": "Middle East Time",
+    "gmt": "+3:30"
+  },
+  {
+    "name": "MIT",
+    "description": "Midway Islands Time",
+    "gmt": "-11:00"
+  },
+  {
+    "name": "MST",
+    "description": "Mountain Standard Time",
+    "gmt": "-7:00"
+  },
+  {
+    "name": "NET",
+    "description": "Near East Time",
+    "gmt": "+4:00"
+  },
+  {
+    "name": "NST",
+    "description": "New Zealand Standard Time",
+    "gmt": "+12:00"
+  },
+  {
+    "name": "PLT",
+    "description": "Pakistan Lahore Time",
+    "gmt": "+5:00"
+  },
+  {
+    "name": "PNT",
+    "description": "Phoenix Standard Time",
+    "gmt": "-7:00"
+  },
+  {
+    "name": "PRT",
+    "description": "Puerto Rico and US Virgin Islands Time",
+    "gmt": "-4:00"
+  },
+  {
+    "name": "PST",
+    "description": "Pacific Standard Time",
+    "gmt": "-8:00"
+  },
+  {
+    "name": "SST",
+    "description": "Solomon Standard Time",
+    "gmt": "+11:00"
+  },
+  {
+    "name": "UTC",
+    "description": "Universal Coordinated Time",
+    "gmt": "0"
+  },
+  {
+    "name": "VST",
+    "description": "Vietnam Standard Time",
+    "gmt": "+7:00"
+  }
+]

@@ -1,0 +1,21 @@
+@import ../../styles/tokens
+
+.tooltip
+  position: absolute
+  background: $black
+  color: white
+  padding: ($spacer / 2) $spacer
+  border-radius: $border-radius
+  white-space: nowrap
+  user-select: none
+  pointer-events: none
+  z-index: 100
+  &:after
+    content: ''
+    width: $spacer
+    height: $spacer
+    background: $black
+    position: absolute
+    left: 50%
+    bottom: $spacer / -2
+    transform: rotate(45deg)

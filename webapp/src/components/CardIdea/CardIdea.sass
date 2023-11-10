@@ -1,0 +1,71 @@
+@import ../../styles/tokens
+
+.card.idea
+  position: relative
+  .card-wrapper
+    position: relative
+    background: $white
+    padding: $spacer * 2
+    border-radius: $border-radius
+    margin: -1px
+    border: 1px solid transparent
+    &:hover
+      border: 1px solid $black
+
+  .card-title,
+  .card-subtitle
+    display: block
+
+  .card-subtitle
+    span,
+    .icon
+      vertical-align: middle
+    .icon
+      width: 18px
+      height: 18px
+      margin-right: $spacer / 2
+
+    .bookmarks
+      vertical-align: middle
+      display: inline-block
+
+  .card-title
+    font-weight: 700
+
+  .page-container .card-wrapper
+    border: 1px solid $light-gray
+    &:hover
+      border-color: $black
+
+  .card-matches
+    position: absolute
+    bottom: 0
+    right: 0
+    padding: $spacer * 2
+    background: white
+    border-radius: $border-radius
+
+    .match
+      position: relative
+      display: inline-block
+      width: $spacer
+      height: $spacer
+      border-radius: 50%
+      background: $black
+      margin-right: $spacer / 2
+      cursor: default
+      transition: all $transition-duration $transition-timing-function
+      &:last-of-type
+        margin-right: 0
+
+      &:hover
+        background: $white
+        border: 1px inset $black
+        .tooltip
+          opacity: 1
+      .tooltip
+        opacity: 0
+        transition: opacity $transition-duration $transition-timing-function
+        left: 0
+        top: -$spacer
+        transform: translate(-50%, -100%)

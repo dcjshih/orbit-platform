@@ -1,0 +1,47 @@
+@import ../../styles/tokens
+
+.search-bar-wrapper
+  background: $white
+  line-height: $spacer * 5
+  height: $spacer * 5
+  width: 100%
+  border-radius: $border-radius
+  padding: 0 ($spacer * 2)
+  overflow: hidden
+  border: 1px solid $gray
+  &:hover,
+  &:focus
+    border: 1px solid $black
+
+  position: relative
+
+  label
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+
+  input[type="text"]
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    border-radius: $border-radius
+    padding:
+      top: 0
+      right: $spacer
+      bottom: 0
+      left: $spacer * 5
+    font: inherit
+    border: none
+    width: 100%
+    &:hover,
+    &:focus
+      border: none
+
+
+  svg
+    position: absolute
+    top: 6px
+    left: $spacer

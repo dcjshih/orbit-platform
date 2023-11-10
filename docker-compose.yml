@@ -1,0 +1,34 @@
+version: '3.7'
+
+services:
+  mongo:
+    image: mongo
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: $DATABASE_USERNAME
+      MONGO_INITDB_ROOT_PASSWORD: $DATABASE_PASSWORD
+
+  nginx:
+    image: orbit/nginx
+    build: ./nginx
+
+  strapi:
+    image: orbit/strapi
+    build: ./strapi
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_CLIENT: mongo
+      DATABASE_HOST: mongo
+      DATABASE_PORT: 27017
+    volumes:
+      - ./strapi/api:/home/strapi/api
+      - ./strapi/config:/home/strapi/config
+      - ./strapi/extensions:/home/strapi/extensions
+      - ./strapi/public:/home/strapi/public
+
+  webapp:
+    image: orbit/webapp
+    build: ./webapp
+    restart: unless-stopped

@@ -1,0 +1,46 @@
+@import ../../styles/tokens
+
+.list-tag
+  position: relative
+  border: 1px solid $gray
+  border-radius: $border-radius
+  padding: $spacer ($spacer * 2)
+  margin-bottom: $spacer
+  overflow: hidden
+  background: $white
+  &:last-of-type
+    margin-bottom: 0
+  a
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+  .list-tag-label
+    position: relative
+    white-space: nowrap
+    span
+      color: $gray
+      &::before
+        content: ' ('
+      &::after
+        content: ')'
+  .list-tag-tools
+    position: absolute
+    right: 0
+    top: 0
+    padding: 0 $spacer
+    background: $white
+    box-shadow: -$spacer 0px $spacer 1px $white
+    border-radius: 0 $border-radius $border-radius 0
+    height: 100%
+    svg
+      display: inline-block
+      margin:
+        top: $spacer
+        right: $spacer
+      fill: $gray
+      &:hover,
+      &:focus
+        fill: $black
+        cursor: pointer
+      &:last-of-type
+        margin-right: 0

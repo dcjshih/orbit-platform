@@ -1,0 +1,49 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/users/me/ideas",
+      "handler": "User.ideas",
+      "config": {
+        "policies": [],
+        "prefix": "",
+        "description": "Retrieve ideas for the logged in user",
+        "tag": {
+          "plugin": "users-permissions",
+          "name": "User",
+          "actionType": "findOne"
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/users/:id/ideas",
+      "handler": "User.ideas",
+      "config": {
+        "policies": [],
+        "prefix": "",
+        "description": "Retrieve ideas for a single user",
+        "tag": {
+          "plugin": "users-permissions",
+          "name": "User",
+          "actionType": "findOne"
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/users/me/bookmarks",
+      "handler": "User.bookmarks",
+      "config": {
+        "policies": [],
+        "prefix": "",
+        "description": "Retrieve bookmarks for the logged in user",
+        "tag": {
+          "plugin": "users-permissions",
+          "name": "User",
+          "actionType": "findOne"
+        }
+      }
+    }
+  ]
+}

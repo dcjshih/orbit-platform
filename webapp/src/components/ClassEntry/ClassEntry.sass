@@ -1,0 +1,47 @@
+@import ../../styles/tokens
+
+$verticalOffset: 10.5px
+$iconSize: 24px
+
+.class-entry
+  position: relative
+  .class-name
+    grid-column-start: 1
+    grid-column-end: 5
+  .class-start
+    grid-column-start: 5
+    grid-column-end: 7
+  .class-end
+    grid-column-start: 7
+    grid-column-end: 9
+  .class-remove-button
+    position: relative
+    grid-column-start: 9
+    grid-column-end: 13
+
+    button
+      border: 0
+      outline: 0
+      background: none
+      cursor: pointer
+      font: inherit
+      line-height: inherit
+      &:hover
+        svg,
+        .tooltip
+          opacity: 1
+
+    .tooltip
+      opacity: 0
+      opacity: 0
+      bottom: $verticalOffset + $spacer + $iconSize
+      left: $spacer
+      transform: translateX(-50%)
+
+    svg
+      position: absolute
+      left: 0
+      bottom: $verticalOffset
+      opacity: 0.3
+      display: block
+      transition: opacity $transition-duration $transition-timing-function
